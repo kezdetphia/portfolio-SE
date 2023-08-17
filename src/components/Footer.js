@@ -7,13 +7,12 @@ import github from '../assets/img/github.svg';
 
 export const Footer = () => {
   return (
-    <footer className="footer p-4">
+    <footer className="footer ">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} sm={6}>
+          <Col size={12} sm={6} className="p-4 pt-5">
             <h3>Mark Feher</h3>
             <p>Software Engineer</p>
-            <p>fehermark88@gmail.com</p>
             <p>© 2023 Mark Feher. </p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
