@@ -1,10 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg2 from "../assets/img/project-img2.jpg";
-import chatme from "../assets/img/chatme.png";
-import footballpitch from "../assets/img/footballpitch.png";
-import laptoptracker from "../assets/img/laptoptracker.png";
-import phoneshop from "../assets/img/phoneshop.png";
+import chatme from "../assets/img/chatme.jpg";
+import footballpitch from "../assets/img/footballpitch.jpg";
+import laptoptracker from "../assets/img/laptoptracker.jpg";
+import phoneshop from "../assets/img/phoneshop.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
