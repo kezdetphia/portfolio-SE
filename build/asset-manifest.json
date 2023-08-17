@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.f0680b68.css",
-    "main.js": "/static/js/main.b08f2159.js",
+    "main.js": "/static/js/main.75c4317f.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
-    "static/media/footballpitch.png": "/static/media/footballpitch.4eb4022fbe5b98d812c5.png",
-    "static/media/phoneshop.png": "/static/media/phoneshop.a9a0733289284f1166c6.png",
-    "static/media/laptoptracker.png": "/static/media/laptoptracker.83df2754fe3c6179b15c.png",
-    "static/media/chatme.png": "/static/media/chatme.292cd87abe1c526bc0b1.png",
     "static/media/logo.png": "/static/media/logo.f3a3c6587bab700b5a12.png",
     "static/media/project-img2.jpg": "/static/media/project-img2.71be70e9784a184aad88.jpg",
     "static/media/postgre.png": "/static/media/postgre.e6e29eb1fc2569db1b8c.png",
+    "static/media/footballpitch.jpg": "/static/media/footballpitch.820cf1ff0df654dc208c.jpg",
+    "static/media/laptoptracker.jpg": "/static/media/laptoptracker.69a98be32ba510510cf3.jpg",
+    "static/media/chatme.jpg": "/static/media/chatme.0c169f449fb5b8519855.jpg",
+    "static/media/phoneshop.jpg": "/static/media/phoneshop.89ddb75b563c8a491ade.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/mongo.png": "/static/media/mongo.6170bacefd8a1f69ca74.png",
@@ -40,11 +40,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.f0680b68.css.map": "/static/css/main.f0680b68.css.map",
-    "main.b08f2159.js.map": "/static/js/main.b08f2159.js.map",
+    "main.75c4317f.js.map": "/static/js/main.75c4317f.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0680b68.css",
-    "static/js/main.b08f2159.js"
+    "static/js/main.75c4317f.js"
   ]
 }
