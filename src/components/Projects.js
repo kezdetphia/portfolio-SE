@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg2 from "../assets/img/project-img2.jpg";
 import chatme from "../assets/img/chatme.jpg";
+import t100 from '../assets/img/t-100.png'
 import footballpitch from "../assets/img/footballpitch.jpg";
 import laptoptracker from "../assets/img/laptoptracker.jpg";
 import phoneshop from "../assets/img/phoneshop.jpg";
@@ -13,26 +14,29 @@ export const Projects = () => {
 
   const projectsTabOne = [
     {
-      title: "ChatMe",
-      description: "ChatMe is a sophisticated MERN stack application that empowers users to engage in real-time conversations with each other using WebSocket.",
-      imgUrl: chatme,
-      github: 'https://github.com/kezdetphia/MERN-ChatApp',
-      live: 'https://sheltered-falls-68173-f1535a201e19.herokuapp.com/'
+      title: "T-100 Fitness",
+      description:
+        "T-100 Fitness' responsive website, powered by ReactJS and styled with Tailwind CSS. It showcases personal trainers' services, contact details, and introduces them to prospective clients.",
+      imgUrl: t100,
+      github: "https://github.com/kezdetphia/t100-fitness",
+      live: "https://t100-fitness.vercel.app/",
     },
     {
-      title: "Laptop Tracker",
-      description: "Laptop Tracker is a MERN stack application to track and manage laptop inventory. Add, edit, and delete laptop records, view laptop details, and search for specific laptops in the inventory.",
-      imgUrl: laptoptracker,
-      github: 'https://github.com/wilsonckm/laptop_tracker',
-      live: 'https://secret-cove-46952-926c125f7927.herokuapp.com/'
+      title: "ChatMe",
+      description:
+        "ChatMe is a sophisticated MERN stack application that empowers users to engage in real-time conversations with each other using WebSocket.",
+      imgUrl: chatme,
+      github: "https://github.com/kezdetphia/MERN-ChatApp",
+      live: "https://sheltered-falls-68173-f1535a201e19.herokuapp.com/",
     },
     {
       title: "The Phone Shop",
-      description: "The Phone Shop project is a Python and Django-based application designed for managing phone sales and inventory. It leverages PostgreSQL for robust database management, streamlining the process of handling products and transactions in a user-friendly manner.",
+      description:
+        "The Phone Shop project is a Python and Django-based application designed for managing phone sales and inventory. It leverages PostgreSQL for robust database management, streamlining the process of handling products and transactions in a user-friendly manner.",
       imgUrl: phoneshop,
-      github: 'https://github.com/Temeculous/phone-shop',
-      live: 'https://phoneshop-ca20a884ff50.herokuapp.com/'
-    }, 
+      github: "https://github.com/Temeculous/phone-shop",
+      live: "https://phoneshop-ca20a884ff50.herokuapp.com/",
+    },
   ];
 
   const projectsTabTwo = [

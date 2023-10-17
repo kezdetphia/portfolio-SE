@@ -7,7 +7,7 @@ export const ProjectCard = ({ title, description, imgUrl, github, live }) => {
         <img src={imgUrl} alt='project-img'/>
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span>
+          <span className="p-3">{description}</span>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <h5>
               <a
