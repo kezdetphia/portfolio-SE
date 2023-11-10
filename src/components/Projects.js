@@ -38,38 +38,31 @@ export const Projects = () => {
       github: "https://github.com/kezdetphia/MERN-ChatApp",
       
     },
+   
+  ];
+
+  const projectsTabTwo = [
     {
       title: "The Phone Shop",
       description:
         "The Phone Shop project is a Python and Django-based application designed for managing phone sales and inventory. It leverages PostgreSQL for robust database management, streamlining the process of handling products and transactions in a user-friendly manner.",
       imgUrl: phoneshop,
       github: "https://github.com/Temeculous/phone-shop",
-      
     },
-  ];
-
-  const projectsTabTwo = [
     {
       title: "Football Pitch",
-      description: "Manage and customize your dream squad's dynamics with Football Pitch. Harnessing MongoDB, Express, and EJS.",
+      description:
+        "Manage and customize your dream squad's dynamics with Football Pitch. Harnessing MongoDB, Express, and EJS.",
       imgUrl: footballpitch,
-      github: 'https://github.com/kezdetphia/football-fullstack',
-      
+      github: "https://github.com/kezdetphia/football-fullstack",
     },
     {
       title: "Placeholder for upcoming projects",
       description: "Description here",
       imgUrl: projImg2,
-      github: 'https://github.com/kezdetphia',
-      live: 'https://www.linkedin.com/in/markfeher8/'
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
     },
-    {
-      title: "Placeholder for upcoming projects",
-      description: "Description here",
-      imgUrl: projImg2,
-      github: 'https://github.com/kezdetphia',
-      live: 'https://www.linkedin.com/in/markfeher8/'
-    }, 
   ];
 
   const projectsTabThree = [
