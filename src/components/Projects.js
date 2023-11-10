@@ -7,12 +7,21 @@ import footballpitch from "../assets/img/footballpitch.jpg";
 import laptoptracker from "../assets/img/laptoptracker.jpg";
 import phoneshop from "../assets/img/phoneshop.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import mycode from '../assets/img/mycode.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
   const projectsTabOne = [
+    {
+      title: "myCode ",
+      description:
+        "myCode is a dynamic MERN stack web application that helps with code management, offering secure storage, rapid retrieval, and collaborative features, empowering programmers of all skill levels to streamline their coding experience.",
+      imgUrl: mycode,
+      github: "https://github.com/kezdetphia/mern-mycode-front",
+      live: "https://deluxe-froyo-98610e.netlify.app/",
+    },
     {
       title: "T-100 Fitness",
       description:
