@@ -36,7 +36,7 @@ export const Projects = () => {
         "ChatMe is a sophisticated MERN stack application that empowers users to engage in real-time conversations with each other using WebSocket.",
       imgUrl: chatme,
       github: "https://github.com/kezdetphia/MERN-ChatApp",
-      live: "https://sheltered-falls-68173-f1535a201e19.herokuapp.com/",
+      
     },
     {
       title: "The Phone Shop",
@@ -44,7 +44,7 @@ export const Projects = () => {
         "The Phone Shop project is a Python and Django-based application designed for managing phone sales and inventory. It leverages PostgreSQL for robust database management, streamlining the process of handling products and transactions in a user-friendly manner.",
       imgUrl: phoneshop,
       github: "https://github.com/Temeculous/phone-shop",
-      live: "https://phoneshop-ca20a884ff50.herokuapp.com/",
+      
     },
   ];
 
@@ -54,7 +54,7 @@ export const Projects = () => {
       description: "Manage and customize your dream squad's dynamics with Football Pitch. Harnessing MongoDB, Express, and EJS.",
       imgUrl: footballpitch,
       github: 'https://github.com/kezdetphia/football-fullstack',
-      live: 'https://football-fullstack-express-ejs-3d020ed5655a.herokuapp.com/'
+      
     },
     {
       title: "Placeholder for upcoming projects",
