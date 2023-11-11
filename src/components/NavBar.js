@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 import github from "../assets/img/github.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+
+import resume from '../assets/resume.pdf'
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,6 +29,8 @@ export const NavBar = () => {
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
+
+
 
   return (
     <Router>
@@ -75,6 +77,18 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+
+              <Nav.Link
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={
+                  activeLink === "resume" ? "active navbar-link" : "navbar-link"
+                }
+              >
+                Resume
+              </Nav.Link>
+              
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">

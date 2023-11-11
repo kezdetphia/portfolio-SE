@@ -36,12 +36,7 @@ export const Projects = () => {
         "ChatMe is a sophisticated MERN stack application that empowers users to engage in real-time conversations with each other using WebSocket.",
       imgUrl: chatme,
       github: "https://github.com/kezdetphia/MERN-ChatApp",
-      
     },
-   
-  ];
-
-  const projectsTabTwo = [
     {
       title: "The Phone Shop",
       description:
@@ -55,6 +50,45 @@ export const Projects = () => {
         "Manage and customize your dream squad's dynamics with Football Pitch. Harnessing MongoDB, Express, and EJS.",
       imgUrl: footballpitch,
       github: "https://github.com/kezdetphia/football-fullstack",
+    },
+  ];
+
+  const projectsTabTwo = [
+   
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
+    },
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
+    },
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
+    },
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
+    },
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: "https://github.com/kezdetphia",
+      live: "https://www.linkedin.com/in/markfeher8/",
     },
     {
       title: "Placeholder for upcoming projects",
@@ -87,6 +121,27 @@ export const Projects = () => {
       github: 'https://github.com/kezdetphia',
       live: 'https://www.linkedin.com/in/markfeher8/'
     }, 
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: 'https://github.com/kezdetphia',
+      live: 'https://www.linkedin.com/in/markfeher8/'
+    }, 
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: 'https://github.com/kezdetphia',
+      live: 'https://www.linkedin.com/in/markfeher8/'
+    }, 
+    {
+      title: "Placeholder for upcoming projects",
+      description: "Description here",
+      imgUrl: projImg2,
+      github: 'https://github.com/kezdetphia',
+      live: 'https://www.linkedin.com/in/markfeher8/'
+    }, 
   ];
 
   
@@ -97,73 +152,77 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Welcome to my playground of creativity and code! Here, I've rounded up a bunch of cool projects that I've conjured up. Think of it as a digital scrapbook of my tech adventures. Take a stroll through these bits and "bytes", and see how I've been crafting digital products.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projectsTabOne.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                    <Row>
-                        {
-                          projectsTabTwo.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                    <Row>
-                        {
-                          projectsTabThree.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>Projects</h2>
+                  <p>
+                    Welcome to my playground of creativity and code! Here, I've
+                    rounded up a bunch of cool projects that I've conjured up.
+                    Think of it as a digital scrapbook of my tech adventures.
+                    Take a stroll through these bits and "bytes", and see how
+                    I've been crafting digital products.
+                  </p>
+               
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav
+                      variant="pills"
+                      className="nav-pills mb-5 justify-content-center align-items-center"
+                      id="pills-tab"
+                    >
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content
+                      id="slideInUp"
+                      className={
+                        isVisible ? "animate__animated animate__slideInUp" : ""
+                      }
+                    >
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {projectsTabOne.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <Row>
+                          {projectsTabTwo.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <Row>
+                          {projectsTabThree.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>
+              )}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="Boost You"></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="Boost You"
+      ></img>
     </section>
-  )
+  );
 }
